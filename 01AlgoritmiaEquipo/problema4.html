@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 4</title>
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>  
+    <div class="container">
+
+        <div class="p4-container" >
+        <!--Problema 4-->
+            <h2 class="p4-title">Problema 4: Utilidades</h2>
+            <h3>
+                Calcular la utilidad que un trabajador recibe en el reparto anual de utilidades si este se le asigna
+                como un porcentaje de su salario mensual que depende de antigüedad en la empresa de acuerdo a la siguiente tabla:
+            </h3>
+            <br>
+            <div class="p4-content">
+                <div class="tablas" style="width: 100%; display:flex; justify-content:center;">
+                <br>
+                <table class="p4-tabla" style="width: 40%;">
+                <thead>
+                    <tr>
+                        <th>Tiempo</th>
+                        <th>Salario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Menos de 1 año</td>
+                        <td>5% del salario</td>
+                    </tr>
+                    <tr>
+                        <td>1 año o más y menos de 2 años</td>
+                        <td>7% del salario</td>
+                    </tr>
+                    <tr>
+                        <td>2 años o más y menos de 5 años</td>
+                        <td>10% del salario</td>
+                    </tr>
+                    <tr>
+                        <td>5 años o más y menos de 10 años</td>
+                        <td>15% del salario</td>
+                    </tr>
+                    <tr>
+                        <td>10 años o más</td>
+                        <td>20% del salario</td>
+                    </tr>
+                </tbody>
+                
+                </table>
+                
+                </div>
+
+                <br>
+                <input type="text" class="p4-input" placeholder="Ingrese años de antiguedad: " id="p4-input">
+                <br>
+                <input type="text" class="p4-input-salario" placeholder="Ingrese salario: " id="p4-input-salario">
+                <br>
+                <button type="button" class="p4-button" style="margin-top: 1rem;" onclick="problema4()" >Calcular Utilidades</button>
+                
+                <hr>
+                <br>
+                    <pre class="problema-output" id="p4-output">Esperando Datos... </pre>
+                    
+            </div>
+  
+        </div>
+
+
+    </div>
+
+    <script src="JS/problema4.js"></script>
+
+<!--JS: Cinthya Fernanda 
+    HTML, CSS: Denise Cruz Rodríguez -->
+
+</body>
+</html>

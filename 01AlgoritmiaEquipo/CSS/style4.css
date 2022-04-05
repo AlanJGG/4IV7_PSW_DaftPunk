@@ -1,0 +1,94 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #83c3f7;
+}
+
+h2, h3{
+    color: #d7eeff;
+}
+
+.container{
+    width: 100%;
+    padding: 2rem;
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.p4-container{
+    background-color: #1983d979;
+    padding: 1rem;
+
+}
+
+.p4-title{
+    color: #0358a3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px;
+}
+
+.p4-content{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+}
+
+input.p4-input{
+    width: 50%;
+    font-family: monospace;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #0358a300;
+}
+
+input.p4-input-salario{
+    width: 50%;
+    font-family: monospace;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #0358a300;
+}
+
+table.p4-tabla{
+    margin: 1rem;
+    border: 1px solid rgb(207, 232, 255);
+}
+
+button.p4-button {
+    border: 2px;
+    background-color: rgb(207, 232, 255);
+    color: rgb(0, 75, 75);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.8rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(126, 126, 126, 0.24) 0 1px 2px rgba(0, 0, 0, 0.57);
+}
+
+.problema-output{
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+}

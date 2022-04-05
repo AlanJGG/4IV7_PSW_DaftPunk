@@ -53,7 +53,7 @@ function problema4(){
 
 
 
-   document.querySelector('#p4-output').textContent="Su utilidad de " +antiguedad+" años de trabajo es de: $"+utilidad;
+   document.querySelector('#p4-output').textContent="Su utilidad de " +antiguedad+" años de trabajo es de: $"+utilidad*antiguedad;
     
 }
 

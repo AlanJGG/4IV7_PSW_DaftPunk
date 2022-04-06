@@ -2,8 +2,8 @@ function problema1(){
     numero1 = parseInt(document.getElementById('p1-input1').value);
     numero2 = parseInt(document.getElementById('p1-input2').value);
 
-    validarNumeros(numero1, "en el campo 1");
-    validarNumeros(numero2, "en el campo 2");
+    validarNumeros(document.getElementById('p1-input1').value, "en el campo 1");
+    validarNumeros(document.getElementById('p1-input2').value, "en el campo 2");
     if(document.getElementById('p1-input1').value == "" || document.getElementById('p1-input2').value == ""){
         alert("Ingrese los números");
     } else if(numero1 = numero2){
@@ -18,7 +18,7 @@ function problema1(){
 
 function validarNumeros(campo, nombreCampo){
     var checkOk = "1234567890";
-    var checkStr = campo
+    var checkStr = campo;
     var todoesvalido = true;
 
     for(var i = 0; i < checkStr.length; i++){

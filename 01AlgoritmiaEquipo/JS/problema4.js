@@ -46,7 +46,6 @@ function problema4(){
             var utilidad=salario*0.20;
         }
         else{
-
             alert("Verifique por favor. Datos inválidos")
         }
         document.querySelector('#p4-output').textContent="Su utilidad de " +antiguedad+" años de trabajo es de: $"+utilidad*antiguedad;
@@ -56,3 +55,4 @@ function problema4(){
     }
      
 }
+

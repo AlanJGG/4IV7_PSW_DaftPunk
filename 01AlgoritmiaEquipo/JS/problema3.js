@@ -8,7 +8,7 @@ function problema3(){
     } else if (horas >= 0){
         if(horas >= 0 && horas <= 40){
             document.getElementById('p3-output').textContent = "Te deberán pagar " + horas + " horas.";
-        } else if(horas > 41 && horas <= 48){
+        } else if(horas > 40 && horas <= 48){
             var horasExtras = horas - 40;
             var horasTotales = horas + horasExtras;
             document.getElementById('p3-output').textContent = "Te deberán pagar " + horasTotales + " horas.";

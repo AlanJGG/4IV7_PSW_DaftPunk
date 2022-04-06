@@ -13,7 +13,7 @@ function problema4(){
     var salario= document.querySelector('#p4-input-salario').value;
     var antiguedad= document.querySelector('#p4-input').value;
    
-    if(salario != "" || antiguedad != "")
+    if(salario != "" && antiguedad != "")
     {
         var salario=parseFloat(salario);
         var antiguedad=parseFloat(antiguedad);

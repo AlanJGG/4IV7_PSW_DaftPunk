@@ -1,7 +1,7 @@
 function problema3(){
     var horas = parseInt(document.getElementById('p3-input').value);
 
-    validarNumeros(horas, "las horas");
+    validarNumeros(document.getElementById('p3-input').value, "las horas");
     if(horas < 0 || document.getElementById('p3-input').value == ""){
         alert("Ingrese el número de horas trabajadas, no puede ser un número negativo.");
         document.getElementById('p3-input').focus();
@@ -13,8 +13,11 @@ function problema3(){
             var horasTotales = horas + horasExtras;
             document.getElementById('p3-output').textContent = "Te deberán pagar " + horasTotales + " horas.";
         } else if(horas > 48){
-            var horasExtras = horas - 40;
+            let horasExtrasDoble = 8;
             var horasExtrasTriple = (horas - 48) * 2;
+            /*for(var i = 0; i < horasExtrasTriple; i++){
+                horas = horas + 3;
+            }*/
             var horasTotales = horas + horasExtras + horasExtrasTriple;
             document.getElementById('p3-output').textContent = "Te deberán pagar " + horasTotales + " horas.";
         } 

@@ -18,7 +18,7 @@ function problema3(){
             /*for(var i = 0; i < horasExtrasTriple; i++){
                 horas = horas + 3;
             }*/
-            var horasTotales = horas + horasExtras + horasExtrasTriple;
+            var horasTotales = horas + horasExtrasDoble + horasExtrasTriple;
             document.getElementById('p3-output').textContent = "Te deberán pagar " + horasTotales + " horas.";
         } 
     }

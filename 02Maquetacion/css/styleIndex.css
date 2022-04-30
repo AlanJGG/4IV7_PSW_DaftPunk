@@ -1,0 +1,116 @@
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 120;
+    
+}
+
+body{
+    background-size: 100% 200% ;
+    background-image : url('fondo2.webp ');
+}
+
+.acceso{
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    background: hsl(193, 24%, 65%, 0.75);
+    padding: 30px 40px ; 
+    
+}
+h1, h4{
+    color: #003558;
+}
+
+input.usuario{
+    font-size: 1rem;
+    border-width: calc(var(--border-width) * 1px);
+    border-style: solid;
+    border-radius:  5px;
+    text-align: center;
+    outline: transparent;
+    width: 50% ;
+}
+
+input.password{
+    
+    font-size: 1rem;
+    border-width: calc(var(--border-width) * 1px);
+    border-style: solid;
+    border-radius:  5px;
+    text-align: center;
+    outline: transparent;
+    width: 50% ;
+}
+
+input.inicio{
+    font-size: 1rem;
+    border-width: calc(var(--border-width) * 1px);
+    border-style: solid;
+    border-radius:  12px;
+    text-align: center;
+    border-color: #025994;
+    background-color: hsl(204, 54%, 55%, 0.3);
+    width: 30% ;
+}
+
+input.borrar{
+    font-size: 1rem;
+    
+    border-width: calc(var(--border-width) * 1px);
+    border-style: solid;
+    border-radius:  12px;
+    text-align: center;
+    background-color: hsl(354, 32%, 61%, 0.3) ;
+    border-color: #946066;
+    width: 30% ;
+}
+
+button.boton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: #141414;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+button.boton span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+button.boton::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #227dd8b2;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+}
+button.boton:hover::after{
+    top: 0;
+}
+
+img{
+    display: block;
+    margin: auto;
+}

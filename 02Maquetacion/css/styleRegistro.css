@@ -1,0 +1,68 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 120;
+    
+}
+
+body{
+    background-size: 100% 200% ;
+    background-image : url('fondoregistro.jpg');
+}
+
+.registro{
+    border: 2px solid grey;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    background: hsl(193, 24%, 65%, 0.75);
+    padding: 30px 40px ; 
+    
+}
+
+h1{
+    color: #334D6E;
+}
+
+input{
+    font-size: 1rem;
+    border-width: calc(var(--border-width) * 1px);
+    border-style: solid ;
+    border-color: #66747e;
+    border-radius:  5px;
+    text-align: center;
+    
+    width: 50% ;
+    background: #8395A3;
+}
+
+input.registrate{
+    font-size: 1rem;
+    
+    border-width: calc(var(--border-width) * 1px);
+    border-style: solid;
+    border-radius:  12px;
+    text-align: center;
+    border-color: #638b7e;
+    background-color: rgba(93, 160, 139, 0.4);
+    width: 30% ;
+}
+
+input.borrar{
+    font-size: 1rem;
+    
+    border-width: calc(var(--border-width) * 1px);
+    border-style: solid;
+    border-radius:  12px;
+    text-align: center;
+    background-color: hsl(354, 32%, 61%, 0.35) ;
+    border-color: #946066;
+    width: 30% ;
+}
+
+::placeholder{
+    color: aliceblue;
+}
